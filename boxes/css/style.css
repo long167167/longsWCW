@@ -1,0 +1,72 @@
+/*our css styles*/
+* 
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#ccc;
+}
+
+#wrapper{
+    width:940px;
+    margin:0 auto;
+}
+
+header{
+    height:200px;
+    background:yellow;
+}
+
+nav{
+    height:50px;
+    background:pink;
+}
+
+#banner{
+   
+    background:red;
+}
+
+main{
+   
+    background:lightblue;
+    width:580px;
+    float:left;
+}
+
+aside{
+    background:tan;
+    float:right;
+    width:340px;
+}
+
+footer{
+    height:50px;
+    line-height:50px;
+    background: #eee;
+    clear:both;
+    overflow: auto;
+}
+        
+        footer ul{
+            margin:0 auto;
+        /*  background:yellow;*/
+    /*      overflow:hidden; */
+            width:520px;
+        }
+        
+        footer li{
+            list-style-type: none;
+            float: left;
+            margin: 0 20px;
+        }
+img{
+    display:block;
+    max-width: 100%;
+}
+        
+.background{
+    
+    background:tan;
+    padding:20px;
+}

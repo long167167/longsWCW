@@ -1,0 +1,208 @@
+/*our css styles*/
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-size:110%;
+       background-image: url(../image/8.jpg);
+        background-repeat:repeat-y;
+        background-size: auto;
+}
+
+header{
+    width:100%;
+    background:rgba(100,100,100,.7);
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+header img#logo{
+    margin:10px auto 0 auto;
+}
+
+nav{
+    line-height:50px;
+    background:rgba(169,169,169,.7);
+    border:1px solid white;
+    font-size:20px;
+    font-kerning: normal;
+
+}
+nav ul{
+    
+    margin:0 auto;
+  /*  background:rgba(176,196,222,.7); */   
+    overflow:hidden;
+    width:400px;
+}
+      
+nav li{
+    list-style-type:none;
+    float:left;
+    width:10em;
+}
+
+nav li a {
+    display: block;
+    color: lavender;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav li a:hover {
+    background-color: gray;
+    
+}
+
+
+div#wrapper{
+    clear:both;
+    width:940px;
+    margin:300px auto 0 auto;
+    overflow: hidden;
+  
+}
+
+div#banner{
+    background:rgba(230,230,250,.7);
+    overflow: hidden;
+    border:2px solid black;
+}
+
+.big div#banner{
+    text-align: center;
+}
+
+.container {
+    margin-top:49px;
+    clear:both;
+    overflow:hidden;
+}
+
+main{
+    
+    height:306px;
+    width:590px;
+    background:rgba(60,30,17,.7);
+    float:left;
+    overflow: hidden;  
+    font-family: impact;
+
+}
+
+.home h1{
+    margin:5px 5px 5px 5px;
+    color: darkgray;
+    border-bottom:solid;
+}
+
+
+.big h1{
+    margin:5px auto 5px auto;
+    color: darkgray;
+    border-bottom:solid;
+}
+
+
+
+.home p{
+    margin:0 20px 5px 20px;
+    color:white;
+    
+}
+.big p{
+    margin:10px 25px 5px 25px;
+    color:white;
+    font-size: .80em;
+    
+}
+
+aside{
+    
+    height:230px;
+    border-style: solid;
+    background:rgba(0,51,0,.7);   
+    float:right;
+    width:340px;
+}
+
+.home h2{
+    color:aliceblue;
+    text-align: center;
+}
+
+.big h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 2.3em;
+border-bottom: 1px solid white;    
+}
+
+.home h2{
+    font-size:25px;
+    margin:5px 0 5px 5px;
+    
+}
+footer{
+   height:50px;
+    line-height:50px;
+    background: #eee;
+    clear:both;
+}
+        
+        footer ul{
+            margin:0 auto;
+        
+            width:550px;
+        }
+        
+        footer li{
+            list-style-type: none;
+            float: left;
+            margin: 0 20px;
+        }
+/*img{
+    display:block;
+    max-width: 100%;
+}
+*/
+
+
+
+#validate{
+    line-height:50px;
+    font-size:20px;
+    font-kerning: normal;
+
+}
+#validate ul{
+    padding-left: 10px;
+    overflow:hidden;
+    width:500px;
+}
+      
+#validate li{
+    list-style-type:none;
+    float:left;
+    width:6em;
+}
+
+#validate li a {
+    display: block;
+    color: midnightblue;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+#validate li a:hover {
+    background-color: gray;
+    border: 1px solid white;
+    
+}
+

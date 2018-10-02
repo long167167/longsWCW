@@ -1,0 +1,119 @@
+/*our css styles*/
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+  font-size:110%;
+    background-color: gainsboro;
+}
+
+header{
+    height: 200px;
+    background-color: blue;
+    font-size: 50px;
+    margin:0 auto;
+    top:0;
+    left:0;
+}
+
+
+
+nav{
+    line-height:2em ;
+    background-color:orange;
+    font-size:20px;
+    font-kerning: normal;
+    margin-bottom: 0;
+
+}
+nav ul{
+    
+    margin:0 auto;
+  /*  background:rgba(176,196,222,.7); */   
+    overflow:hidden;
+    width:100%;
+    
+}
+      
+nav li{
+    list-style-type:none;
+    float:left;
+    width:20%;
+    text-align: center;
+    color:black;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav li a:hover {
+    background-color: black;
+    color:white;
+    
+}
+
+
+div#wrapper{
+    width:940px;
+    margin:1% auto 0 auto;
+    overflow: hidden;
+  
+}
+
+
+
+
+.container {
+ 
+    clear:both;
+    overflow:hidden;
+}
+
+main{
+    float:left;
+    height:306px;
+    width:38%;
+    background-color:pink;
+    float:left;
+    overflow: hidden; 
+    
+
+}
+
+
+
+aside{
+    float:right;
+    width:60%;
+    height:400px;
+    background-color:yellow;
+}
+
+
+footer{
+   height:50px;
+    line-height:50px;
+    background-color:dimgray;
+    clear:both;
+   
+}
+
+
+
+#validate{
+    text-align: center;
+    line-height:50px;
+    font-size:1.5em;
+    font-kerning: normal;
+    margin:1% auto 1% auto;
+
+}
+
+#htmllogo{
+    width:3%;
+}
